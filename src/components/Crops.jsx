@@ -1,6 +1,6 @@
 import React from 'react'
 
-const availableProduce = [
+const allCrops = [
    {
       month: "January",
       selection: [
@@ -268,18 +268,3 @@ const availableProduce = [
       ]
    }
 ];
-
-function CropsList(){
-  return (
-    <div>
-      <hr/>
-      {availableProduce.map((month, crops, index) =>
-        <Month month={month.month}
-          selection={month.selection}
-      )}
-        {allCrops.map((months, crops, index)
-        <Crops crops={crops.name}
-        )}
-    </div>
-  )}
-  export default CropsList
