@@ -43,11 +43,11 @@ function LocationsList(){
   return (
     <div>
       <hr/>
-      {marketSchedule}.map((details, index) =>
-        <Day day={details.day}
-        location={details.location}
-        hours={details.hours}
-        booth={details.booth}
+      {marketSchedule}.map((day, location, hours, booth, index) =>
+        <Date day={date.day}
+        location={date.location}
+        hours={date.hours}
+        booth={date.booth} />
       )}
     </div>
   )}

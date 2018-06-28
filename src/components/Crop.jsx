@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
-function Crops(props){
+function Crop(props){
   return (
     <div>
       <h3>{props.selectedMonth}</h3>
@@ -12,9 +12,9 @@ function Crops(props){
     </div>
   )
 }
-Crops.prototype = {
+Crop.prototype = {
   selectedMonth: PropTypes.string.isRequired,
   cropNames: PropTypes.arrayOf(PropTypes.string)
 }
 
-export default Crops
+export default Crop
