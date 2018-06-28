@@ -1,9 +1,9 @@
 function MyStyledComponent(props) {
   return (
    <div>
-      <p className="grey-text">only this paragraph will get the style :)</p>
+      <p className="brown-text">only this paragraph will get the style :)</p>
       <style jsx>{`
-        .grey-text {
+        .brown-text {
           color: green;
         }
     `}</style>
